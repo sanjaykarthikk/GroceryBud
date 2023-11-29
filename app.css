@@ -1,0 +1,83 @@
+body{
+    background-color: beige;
+}
+
+.grocerylist h1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.grocerylist{
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: 100px auto 20px;
+    padding: 30px 30px 70px;
+    border-radius: 10px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: whitesmoke;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.add{
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    background-color: cornflowerblue;
+    border-radius: 30px ;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 17px;
+    padding: 12px 50px 12px 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.clearall{
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    color: red;
+    border-radius: 30px ;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#ListContainer button{
+    border: none;
+    outline: none;
+    background-color: white;
+} 
+span{
+    display: absolute;
+    float: right;
+}
+
+.Button{
+    width: 20px;
+    cursor: pointer;
+}
